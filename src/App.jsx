@@ -1,6 +1,7 @@
 // import Hooks from react
 import { useState, useCallback, useEffect, useRef } from "react";
 
+
 // App component
 function App() {
   const [length, setLength] = useState(8);
@@ -41,7 +42,7 @@ function App() {
 
   // JSX
   return (
-    <div className="w-full max-w-xl h-fit mx-auto shadow-md rounded-3xl px-10 py-7 my-8 bg-gray-800 text-orange-500 text-3xl">
+    <div className="w-full max-w-xl h-fit mx-auto shadow-md rounded-3xl px-10 py-7 my-8 bg-gray-800 text-orange-500 text-3xl ">
       <h1 className="text-[#05fcba] text-center my-7">Password Generator</h1>
       <div className="flex shadow rounded-lg overflow-hidden mb-4">
         <input
@@ -59,7 +60,7 @@ function App() {
           Copy
         </button>
       </div>
-      <div className="flex justify-between text-xl">
+      <div className="flex flex-row justify-between text-xl flex-wrap">
         <div className="flex items-center gap-x-1">
           <input
             type="range"
